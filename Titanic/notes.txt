@@ -1,0 +1,47 @@
+First of all, the metrics:
+
+Accuracy: True/All
+Precision: TP/(TP+FP) How many predicted positives are acutally positives
+Recall: TP/(TP+FN) Truely predicted positives out of all actual positives
+F1 Score: 2*(Recall*Precision)/(Recall+Precision)
+--------------------------------
+Classification problem.
+Models used:
+
+Logistic Regression
+Adaptive Boosting
+Gradient Boosting
+Decision Tree
+Random Forest
+
+--------------------------------
+Scaling: 
+
+used standard scaler:
+z = (x-u)/s
+
+where x is the raw_sample, z is the scaled sample;
+u is the mean of the training samples, s is the stardard deviation of the training samples.
+
+MaxAbs scaler:
+scale each value with respect to its maximum absolute value
+
+MinMax scaler:
+X_std = (x-min)/(max-min)
+X_scaled = X_std * (max-min) + min
+
+Normalize scaler:
+L1(sum of the abs value)/L2(Square root of l1)/Max(max value)
+
+--------------------------------
+Other preprocessing methods
+
+One-Hot encoding:
+use binary variables (dummy variables) to encode categorical variables
+
+
+Integer encoding:
+encode categorical variables using integers
+-------------------------------
+Other preprocessing methods:
+

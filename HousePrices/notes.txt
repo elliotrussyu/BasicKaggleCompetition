@@ -1,0 +1,13 @@
+Statistical measures
+
+Skewness(Fisher-Person): 
+a measure of symmetry, the skewness for a normal distribution is zero.
+The more close to zero, the more symmetric the data is. 
+If <0, then the data is skewed left. Otherwise skewed right.
+
+Kurtosis:
+a measure of tails(outliers).
+The kurtosis for a standard normal distribution is 3.
+When Fisher's definition is used, then the kurtosis for N(0,1) is 0.
+When positive, the data is heavy-tailed: lots of outliers.
+When negative, the data is light-tailed: lack of outliers.
